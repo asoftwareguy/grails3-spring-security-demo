@@ -1,5 +1,7 @@
 # Grails 3 Spring Security Demo
 
+[![Build Status](https://drone.io/github.com/asoftwareguy/grails3-spring-security-demo/status.png)](https://drone.io/github.com/asoftwareguy/grails3-spring-security-demo/latest)
+
 ## Environment Setup
 
 1. Set your Grails environment to use Grails 3. Currently, this demo is built using Grails 3.0.1.
