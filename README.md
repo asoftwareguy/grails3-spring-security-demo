@@ -65,8 +65,9 @@ should be able to access the application root page without needing to provide cr
 
 ### URL Intercept with provider example
 
-To enable the URL intercept security configuration, first we need to comment the `@Configuration` and ``@Component` 
-annotations that we enabled in the provider authentication example. Then, go to 
+To enable the URL intercept security configuration, first we need to comment the `@Configuration` and `@Component` 
+annotations that we enabled in the provider authentication example. You'll also need to comment the `@EnableWebSecurity`
+annotations in the `InMemorySecurityConfig.groovy` and `ProviderSecurityConfig.groovy`. Then, go to 
 `grails-app/init/grails3/spring/security/demo/InterceptMapSecurityConfig.groovy` and uncomment the `@Configuration`
 annotation. Then we also need to go to
 `grails-app/conf/spring/resources.groovy` and uncomment the authenticationProvider bean definition.
