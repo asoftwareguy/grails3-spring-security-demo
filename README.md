@@ -4,7 +4,7 @@
 
 ## Environment Setup
 
-1. Set your Grails environment to use Grails 3. Currently, this demo is built using Grails 3.0.1.
+1. Set your Grails environment to use Grails 3. Currently, this demo is built using Grails 3.0.6.
 2. Clone or fork the project
 
 ## Initial Steps
